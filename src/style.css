@@ -1,0 +1,57 @@
+body{
+    margin:0 auto;
+    height: 100vh;
+    background-color: black;
+}
+table{
+    border-spacing: 0px;
+    margin: 0 auto;
+}
+
+#board{
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.boardCell{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 2px;
+    float: left;
+    background-color: white;
+}
+.ball{
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 36px;
+    height: 36px;
+}
+#kulki>div{
+    display: inline-block;
+    margin: 0 auto;
+}
+#kulki{
+    text-align: center;
+}
+#pkt{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#szydera{
+    position: absolute;
+    left: 500px;
+    font-size: 50px;
+}
+#strajk{
+    width: 500px;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 1000px;
+
+}
